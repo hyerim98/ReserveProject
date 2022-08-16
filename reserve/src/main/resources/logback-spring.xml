@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan = "true" scanPeriod = "60 seconds">
+
+	<appender name = "CONSOLE" class = "ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>[%thread] %d{HH:mm:ss.SSS} %-5level %logger{50} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name = "CONSOLE_INFO_ROLLING" class = "ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class = "ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>C:\Users\Administrator\Desktop\hyerim\ReserveProject\logs\info\%d{yyyy-MM-dd}.%i.out</fileNamePattern>
+			<maxFileSize>50MB</maxFileSize>
+		</rollingPolicy>
+		
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name = "CONSOLE_DEBUG_ROLLING" class = "ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class = "ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>C:\Users\Administrator\Desktop\hyerim\ReserveProject\logs\service\%d{yyyy-MM-dd}.%i.out</fileNamePattern>
+			<maxFileSize>50MB</maxFileSize>
+		</rollingPolicy>
+		
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	
+	<root level="info">
+		<appender-ref ref = "CONSOLE"/>
+		<appender-ref ref = "CONSOLE_INFO_ROLLING"/>
+	</root>
+	
+	<logger name="com.hr.reserve.service" level="debug">
+		<appender-ref ref = "CONSOLE"/>
+		<appender-ref ref = "CONSOLE_DEBUG_ROLLING"/>
+	</logger>
+
+</configuration>

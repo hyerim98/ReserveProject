@@ -1,0 +1,28 @@
+2022-08-12 16:48:11.547 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 172024 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 16:48:11.549 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 16:48:11.550 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 16:48:16.885 INFO  Started MemberServiceTest in 5.764 seconds (JVM running for 7.233)
+2022-08-12 16:50:11.785 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 162460 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 16:50:11.787 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 16:50:11.788 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 16:50:16.422 INFO  Started MemberServiceTest in 5.007 seconds (JVM running for 6.163)
+2022-08-12 17:38:38.828 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 159448 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:38:38.830 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:38:38.831 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:38:44.266 INFO  Started MemberServiceTest in 5.856 seconds (JVM running for 7.096)
+2022-08-12 17:39:15.260 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 171788 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:39:15.261 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:39:15.262 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:39:19.820 INFO  Started MemberServiceTest in 4.962 seconds (JVM running for 6.19)
+2022-08-12 17:40:51.954 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 151720 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:40:51.955 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:40:51.956 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:40:56.427 INFO  Started MemberServiceTest in 4.817 seconds (JVM running for 5.885)
+2022-08-12 17:46:58.194 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 157956 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:46:58.196 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:46:58.196 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:47:02.729 INFO  Started MemberServiceTest in 4.893 seconds (JVM running for 6.071)
+2022-08-12 17:51:46.261 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 179836 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:51:46.262 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:51:46.263 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:51:50.964 INFO  Started MemberServiceTest in 5.068 seconds (JVM running for 6.179)

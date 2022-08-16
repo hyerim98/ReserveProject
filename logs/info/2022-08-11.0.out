@@ -1,0 +1,35 @@
+2022-08-11 14:22:31.277 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-11 14:22:31.282 INFO  Starting ReserveApplication using Java 16.0.2 on fla0908 with PID 180560 (C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve\bin\main started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-11 14:22:31.282 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-11 14:22:31.738 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-11 14:22:31.749 INFO  Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-08-11 14:22:32.143 INFO  Tomcat initialized with port(s): 8080 (http)
+2022-08-11 14:22:32.152 INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-11 14:22:32.152 INFO  Starting service [Tomcat]
+2022-08-11 14:22:32.152 INFO  Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 14:22:32.286 INFO  Initializing Spring embedded WebApplicationContext
+2022-08-11 14:22:32.286 INFO  Root WebApplicationContext: initialization completed in 973 ms
+2022-08-11 14:22:32.386 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-11 14:22:32.420 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-11 14:22:32.559 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-11 14:22:32.639 INFO  HikariPool-1 - Starting...
+2022-08-11 14:22:32.643 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-11 14:22:32.912 INFO  HikariPool-1 - Start completed.
+2022-08-11 14:22:32.938 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-11 14:22:33.144 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 14:22:33.152 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 14:22:33.186 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 14:22:33.302 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-11 14:22:33.446 INFO  Starting ProtocolHandler ["http-nio-8080"]
+2022-08-11 14:22:33.464 INFO  Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 14:22:33.471 INFO  Started ReserveApplication in 2.518 seconds (JVM running for 3.135)
+2022-08-11 14:22:41.466 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 14:22:41.466 INFO  Initializing Servlet 'dispatcherServlet'
+2022-08-11 14:22:41.467 INFO  Completed initialization in 1 ms
+2022-08-11 14:22:41.575 INFO  INFO Level 테스트
+2022-08-11 14:22:41.575 WARN  Warn Level 테스트
+2022-08-11 14:22:41.575 ERROR ERROR Level 테스트
+2022-08-11 14:23:30.336 INFO  Application shutdown requested.
+2022-08-11 14:23:30.350 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 14:23:30.352 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-11 14:23:30.359 INFO  HikariPool-1 - Shutdown completed.

@@ -1,0 +1,715 @@
+2022-08-12 09:15:18.804 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 09:15:18.810 INFO  Starting ReserveApplication using Java 16.0.2 on fla0908 with PID 158024 (C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve\bin\main started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 09:15:18.810 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 09:15:19.311 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 09:15:19.322 INFO  Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-08-12 09:15:19.732 INFO  Tomcat initialized with port(s): 8080 (http)
+2022-08-12 09:15:19.742 INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-12 09:15:19.742 INFO  Starting service [Tomcat]
+2022-08-12 09:15:19.743 INFO  Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-12 09:15:19.883 INFO  Initializing Spring embedded WebApplicationContext
+2022-08-12 09:15:19.883 INFO  Root WebApplicationContext: initialization completed in 1035 ms
+2022-08-12 09:15:20.007 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 09:15:20.072 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 09:15:20.249 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 09:15:20.350 INFO  HikariPool-1 - Starting...
+2022-08-12 09:15:20.354 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 09:15:20.657 INFO  HikariPool-1 - Start completed.
+2022-08-12 09:15:20.691 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 09:15:21.402 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 09:15:21.409 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 09:15:21.449 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 09:15:21.575 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 09:15:21.732 INFO  Starting ProtocolHandler ["http-nio-8080"]
+2022-08-12 09:15:21.770 INFO  Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-12 09:15:21.777 INFO  Started ReserveApplication in 3.367 seconds (JVM running for 4.139)
+2022-08-12 09:15:55.551 INFO  Application shutdown requested.
+2022-08-12 09:15:55.568 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 09:15:55.569 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 09:15:55.576 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 10:19:52.722 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 10:19:52.735 INFO  Starting ReserveApplication using Java 16.0.2 on fla0908 with PID 162008 (C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve\bin\main started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 10:19:52.736 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 10:19:53.199 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 10:19:53.211 INFO  Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-08-12 10:19:53.681 INFO  Tomcat initialized with port(s): 8080 (http)
+2022-08-12 10:19:53.696 INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-12 10:19:53.697 INFO  Starting service [Tomcat]
+2022-08-12 10:19:53.697 INFO  Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-12 10:19:53.867 INFO  Initializing Spring embedded WebApplicationContext
+2022-08-12 10:19:53.867 INFO  Root WebApplicationContext: initialization completed in 1097 ms
+2022-08-12 10:19:53.990 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 10:19:54.046 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 10:19:54.207 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 10:19:54.307 INFO  HikariPool-1 - Starting...
+2022-08-12 10:19:54.311 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 10:19:54.591 INFO  HikariPool-1 - Start completed.
+2022-08-12 10:19:54.619 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 10:19:54.704 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 10:19:55.328 WARN  GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table cherry 
+       drop 
+       foreign key FK1oepoekx3829orrqi68vbn2wu" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table cherry 
+       drop 
+       foreign key FK1oepoekx3829orrqi68vbn2wu" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'reserve.cherry' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2022-08-12 10:19:55.331 WARN  GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table order_product 
+       drop 
+       foreign key FKl5mnj9n0di7k1v90yxnthkc73" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table order_product 
+       drop 
+       foreign key FKl5mnj9n0di7k1v90yxnthkc73" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'reserve.order_product' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2022-08-12 10:19:55.333 WARN  GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table order_product 
+       drop 
+       foreign key FKhnfgqyjx3i80qoymrssls3kno" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table order_product 
+       drop 
+       foreign key FKhnfgqyjx3i80qoymrssls3kno" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'reserve.order_product' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2022-08-12 10:19:55.336 WARN  GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table orders 
+       drop 
+       foreign key FKpktxwhj3x9m4gth5ff6bkqgeb" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table orders 
+       drop 
+       foreign key FKpktxwhj3x9m4gth5ff6bkqgeb" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'reserve.orders' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2022-08-12 10:19:55.723 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 10:19:55.730 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 10:19:55.766 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 10:19:55.893 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 10:19:56.045 INFO  Starting ProtocolHandler ["http-nio-8080"]
+2022-08-12 10:19:56.068 INFO  Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-12 10:19:56.075 INFO  Started ReserveApplication in 3.705 seconds (JVM running for 4.332)
+2022-08-12 10:20:14.488 INFO  Application shutdown requested.
+2022-08-12 10:20:14.505 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 10:20:14.506 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 10:20:14.514 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 11:00:15.765 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 11:00:15.769 INFO  Starting ReserveApplication using Java 16.0.2 on fla0908 with PID 154324 (C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve\bin\main started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 11:00:15.770 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 11:00:16.237 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 11:00:16.251 INFO  Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-08-12 11:00:16.686 INFO  Tomcat initialized with port(s): 8080 (http)
+2022-08-12 11:00:16.694 INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-12 11:00:16.694 INFO  Starting service [Tomcat]
+2022-08-12 11:00:16.694 INFO  Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-12 11:00:16.824 INFO  Initializing Spring embedded WebApplicationContext
+2022-08-12 11:00:16.825 INFO  Root WebApplicationContext: initialization completed in 1021 ms
+2022-08-12 11:00:16.928 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 11:00:16.972 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 11:00:17.133 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 11:00:17.214 INFO  HikariPool-1 - Starting...
+2022-08-12 11:00:17.218 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 11:00:17.481 INFO  HikariPool-1 - Start completed.
+2022-08-12 11:00:17.510 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 11:00:17.590 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 11:00:17.818 ERROR Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.Map, at table: reserve, for columns: [org.hibernate.mapping.Column(member_type)]
+2022-08-12 11:00:17.818 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.Map, at table: reserve, for columns: [org.hibernate.mapping.Column(member_type)]
+2022-08-12 11:00:17.818 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 11:00:17.824 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 11:00:17.825 INFO  Stopping service [Tomcat]
+2022-08-12 11:00:17.834 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-12 11:00:17.847 ERROR Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.Map, at table: reserve, for columns: [org.hibernate.mapping.Column(member_type)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.Map, at table: reserve, for columns: [org.hibernate.mapping.Column(member_type)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Could not determine type for: java.util.Map, at table: reserve, for columns: [org.hibernate.mapping.Column(member_type)]
+	at org.hibernate.mapping.SimpleValue.getType(SimpleValue.java:515)
+	at org.hibernate.mapping.SimpleValue.isValid(SimpleValue.java:482)
+	at org.hibernate.mapping.Property.isValid(Property.java:231)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:627)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:267)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:359)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2022-08-12 11:22:03.818 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 11:22:03.825 INFO  Starting ReserveApplication using Java 16.0.2 on fla0908 with PID 153896 (C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve\bin\main started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 11:22:03.826 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 11:22:04.345 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 11:22:04.360 INFO  Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-08-12 11:22:04.779 INFO  Tomcat initialized with port(s): 8080 (http)
+2022-08-12 11:22:04.789 INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-12 11:22:04.790 INFO  Starting service [Tomcat]
+2022-08-12 11:22:04.790 INFO  Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-12 11:22:04.923 INFO  Initializing Spring embedded WebApplicationContext
+2022-08-12 11:22:04.923 INFO  Root WebApplicationContext: initialization completed in 1064 ms
+2022-08-12 11:22:05.047 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 11:22:05.109 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 11:22:05.279 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 11:22:05.371 INFO  HikariPool-1 - Starting...
+2022-08-12 11:22:05.376 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 11:22:05.666 INFO  HikariPool-1 - Start completed.
+2022-08-12 11:22:05.700 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 11:22:05.794 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 11:22:06.411 WARN  GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table number_of_people 
+       drop 
+       foreign key FK5cx185ubb870soutmdih432r8" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table number_of_people 
+       drop 
+       foreign key FK5cx185ubb870soutmdih432r8" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'reserve.number_of_people' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2022-08-12 11:22:06.447 WARN  GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table reserve 
+       drop 
+       foreign key FKktaxwc9vryh5v78n280p3fq1o" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table reserve 
+       drop 
+       foreign key FKktaxwc9vryh5v78n280p3fq1o" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.hr.reserve.ReserveApplication.main(ReserveApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'reserve.reserve' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2022-08-12 11:22:06.998 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 11:22:07.004 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 11:22:07.040 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 11:22:07.150 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 11:22:07.295 INFO  Starting ProtocolHandler ["http-nio-8080"]
+2022-08-12 11:22:07.336 INFO  Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-12 11:22:07.344 INFO  Started ReserveApplication in 3.846 seconds (JVM running for 4.495)
+2022-08-12 11:24:40.182 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-12 11:24:40.183 INFO  Initializing Servlet 'dispatcherServlet'
+2022-08-12 11:24:40.184 INFO  Completed initialization in 1 ms
+2022-08-12 11:24:42.358 INFO  INFO Level 테스트
+2022-08-12 11:24:42.359 WARN  Warn Level 테스트
+2022-08-12 11:24:42.359 ERROR ERROR Level 테스트
+2022-08-12 11:25:07.224 INFO  Application shutdown requested.
+2022-08-12 11:25:07.239 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 11:25:07.240 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 11:25:07.245 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 13:18:54.527 INFO  Starting MemberRepositoryTest using Java 16.0.2 on fla0908 with PID 182976 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 13:18:54.528 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 13:18:54.537 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 13:18:55.364 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 13:18:55.393 INFO  Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2022-08-12 13:18:56.069 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 13:18:56.144 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 13:18:56.376 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 13:18:56.585 INFO  HikariPool-1 - Starting...
+2022-08-12 13:18:56.591 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 13:18:57.050 INFO  HikariPool-1 - Start completed.
+2022-08-12 13:18:57.084 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 13:18:57.190 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 13:18:58.823 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 13:18:58.831 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 13:18:59.186 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 13:18:59.622 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 13:19:00.170 INFO  Started MemberRepositoryTest in 6.092 seconds (JVM running for 7.742)
+2022-08-12 13:19:00.483 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 13:19:00.485 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 13:19:00.495 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 13:19:45.383 INFO  Starting MemberRepositoryTest using Java 16.0.2 on fla0908 with PID 147488 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 13:19:45.385 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 13:19:45.402 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 13:19:46.173 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 13:19:46.199 INFO  Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-08-12 13:19:46.898 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 13:19:46.961 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 13:19:47.137 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 13:19:47.315 INFO  HikariPool-1 - Starting...
+2022-08-12 13:19:47.325 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 13:19:47.683 INFO  HikariPool-1 - Start completed.
+2022-08-12 13:19:47.720 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 13:19:47.830 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 13:19:49.312 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 13:19:49.320 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 13:19:49.677 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 13:19:50.050 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 13:19:50.548 INFO  Started MemberRepositoryTest in 5.559 seconds (JVM running for 6.765)
+2022-08-12 13:19:50.697 INFO  Began transaction (1) for test context [DefaultTestContext@7e5d9a50 testClass = MemberRepositoryTest, testInstance = com.hr.reserve.repository.MemberRepositoryTest@64f2b1b4, testMethod = memberTest@MemberRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60957c0f testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@eee26bd]; rollback [true]
+2022-08-12 13:19:50.987 INFO  Rolled back transaction for test: [DefaultTestContext@7e5d9a50 testClass = MemberRepositoryTest, testInstance = com.hr.reserve.repository.MemberRepositoryTest@64f2b1b4, testMethod = memberTest@MemberRepositoryTest, testException = java.lang.UnsupportedOperationException: 'equals' is not supported...maybe you intended to call 'isEqualTo', mergedContextConfiguration = [WebMergedContextConfiguration@60957c0f testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 13:19:51.005 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 13:19:51.007 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 13:19:51.016 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 13:20:16.138 INFO  Starting MemberRepositoryTest using Java 16.0.2 on fla0908 with PID 178384 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 13:20:16.140 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 13:20:16.152 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 13:20:16.920 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 13:20:16.939 INFO  Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2022-08-12 13:20:17.605 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 13:20:17.682 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 13:20:17.887 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 13:20:18.067 INFO  HikariPool-1 - Starting...
+2022-08-12 13:20:18.074 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 13:20:18.438 INFO  HikariPool-1 - Start completed.
+2022-08-12 13:20:18.477 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 13:20:18.620 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 13:20:19.952 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 13:20:19.962 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 13:20:20.296 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 13:20:20.730 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 13:20:21.268 INFO  Started MemberRepositoryTest in 5.548 seconds (JVM running for 6.814)
+2022-08-12 13:20:21.393 INFO  Began transaction (1) for test context [DefaultTestContext@7e5d9a50 testClass = MemberRepositoryTest, testInstance = com.hr.reserve.repository.MemberRepositoryTest@3b850bb7, testMethod = memberTest@MemberRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60957c0f testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@50dd1e3a]; rollback [true]
+2022-08-12 13:20:21.693 INFO  Rolled back transaction for test: [DefaultTestContext@7e5d9a50 testClass = MemberRepositoryTest, testInstance = com.hr.reserve.repository.MemberRepositoryTest@3b850bb7, testMethod = memberTest@MemberRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60957c0f testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 13:20:21.711 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 13:20:21.713 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 13:20:21.723 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 16:48:11.547 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 172024 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 16:48:11.549 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 16:48:11.550 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 16:48:11.559 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 16:48:12.322 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 16:48:12.341 INFO  Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2022-08-12 16:48:12.977 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 16:48:13.050 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 16:48:13.295 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 16:48:13.488 INFO  HikariPool-1 - Starting...
+2022-08-12 16:48:13.496 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 16:48:13.921 INFO  HikariPool-1 - Start completed.
+2022-08-12 16:48:13.952 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 16:48:14.065 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 16:48:15.477 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 16:48:15.486 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 16:48:15.890 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 16:48:16.319 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 16:48:16.885 INFO  Started MemberServiceTest in 5.764 seconds (JVM running for 7.233)
+2022-08-12 16:48:17.014 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@8113ea7, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@49f9758]; rollback [true]
+2022-08-12 16:48:17.357 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@8113ea7, testMethod = success_join@MemberServiceTest, testException = org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: login_id of: com.hr.reserve.domain.Member [select m from com.hr.reserve.domain.Member m where m.login_id = :loginId]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: login_id of: com.hr.reserve.domain.Member [select m from com.hr.reserve.domain.Member m where m.login_id = :loginId], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 16:48:17.380 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 16:48:17.382 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 16:48:17.391 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 16:50:11.785 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 162460 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 16:50:11.787 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 16:50:11.788 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 16:50:11.804 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 16:50:12.466 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 16:50:12.492 INFO  Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2022-08-12 16:50:13.060 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 16:50:13.114 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 16:50:13.272 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 16:50:13.452 INFO  HikariPool-1 - Starting...
+2022-08-12 16:50:13.458 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 16:50:13.817 INFO  HikariPool-1 - Start completed.
+2022-08-12 16:50:13.852 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 16:50:13.963 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 16:50:15.245 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 16:50:15.253 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 16:50:15.584 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 16:50:15.913 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 16:50:16.422 INFO  Started MemberServiceTest in 5.007 seconds (JVM running for 6.163)
+2022-08-12 16:50:16.529 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@78e4fa1, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@209b4b35]; rollback [true]
+2022-08-12 16:50:16.854 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@78e4fa1, testMethod = success_join@MemberServiceTest, testException = org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query, mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 16:50:16.873 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 16:50:16.875 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 16:50:16.883 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 17:38:38.828 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 159448 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:38:38.830 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:38:38.831 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:38:38.837 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 17:38:39.642 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 17:38:39.663 INFO  Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-08-12 17:38:40.281 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 17:38:40.379 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 17:38:40.649 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 17:38:40.855 INFO  HikariPool-1 - Starting...
+2022-08-12 17:38:40.861 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 17:38:41.250 INFO  HikariPool-1 - Start completed.
+2022-08-12 17:38:41.283 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 17:38:41.398 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 17:38:42.827 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 17:38:42.835 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:38:43.254 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 17:38:43.720 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 17:38:44.266 INFO  Started MemberServiceTest in 5.856 seconds (JVM running for 7.096)
+2022-08-12 17:38:44.381 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@112a50a1, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@f7b7720]; rollback [true]
+2022-08-12 17:38:44.740 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@112a50a1, testMethod = success_join@MemberServiceTest, testException = org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query, mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 17:38:44.765 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:38:44.768 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 17:38:44.782 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 17:39:15.260 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 171788 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:39:15.261 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:39:15.262 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:39:15.276 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 17:39:15.998 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 17:39:16.017 INFO  Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2022-08-12 17:39:16.601 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 17:39:16.670 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 17:39:16.841 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 17:39:17.011 INFO  HikariPool-1 - Starting...
+2022-08-12 17:39:17.015 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 17:39:17.361 INFO  HikariPool-1 - Start completed.
+2022-08-12 17:39:17.397 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 17:39:17.492 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 17:39:18.742 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 17:39:18.750 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:39:19.045 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 17:39:19.347 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 17:39:19.820 INFO  Started MemberServiceTest in 4.962 seconds (JVM running for 6.19)
+2022-08-12 17:39:19.937 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@44f338ec, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@ff1a5a0]; rollback [true]
+2022-08-12 17:39:20.234 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@44f338ec, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 17:39:20.252 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:39:20.254 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 17:39:20.266 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 17:40:51.954 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 151720 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:40:51.955 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:40:51.956 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:40:51.969 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 17:40:52.594 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 17:40:52.614 INFO  Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-08-12 17:40:53.247 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 17:40:53.302 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 17:40:53.467 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 17:40:53.638 INFO  HikariPool-1 - Starting...
+2022-08-12 17:40:53.644 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 17:40:53.976 INFO  HikariPool-1 - Start completed.
+2022-08-12 17:40:54.005 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 17:40:54.100 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 17:40:55.354 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 17:40:55.361 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:40:55.679 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 17:40:55.999 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 17:40:56.427 INFO  Started MemberServiceTest in 4.817 seconds (JVM running for 5.885)
+2022-08-12 17:40:56.529 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@64acf8d2, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@75c3584e]; rollback [true]
+2022-08-12 17:40:56.863 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@64acf8d2, testMethod = success_join@MemberServiceTest, testException = org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query, mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 17:40:56.888 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:40:56.890 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 17:40:56.902 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 17:46:58.194 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 157956 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:46:58.196 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:46:58.196 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:46:58.207 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 17:46:58.872 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 17:46:58.894 INFO  Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-08-12 17:46:59.413 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 17:46:59.467 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 17:46:59.639 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 17:46:59.816 INFO  HikariPool-1 - Starting...
+2022-08-12 17:46:59.823 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 17:47:00.182 INFO  HikariPool-1 - Start completed.
+2022-08-12 17:47:00.218 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 17:47:00.320 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 17:47:01.600 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 17:47:01.608 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:47:01.961 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 17:47:02.311 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 17:47:02.729 INFO  Started MemberServiceTest in 4.893 seconds (JVM running for 6.071)
+2022-08-12 17:47:02.838 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@78e4fa1, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@209b4b35]; rollback [true]
+2022-08-12 17:47:03.169 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@78e4fa1, testMethod = success_join@MemberServiceTest, testException = org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query, mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 17:47:03.186 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:47:03.188 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 17:47:03.196 INFO  HikariPool-1 - Shutdown completed.
+2022-08-12 17:51:46.261 INFO  Starting MemberServiceTest using Java 16.0.2 on fla0908 with PID 179836 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-12 17:51:46.262 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-12 17:51:46.263 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-12 17:51:46.273 INFO  HV000001: Hibernate Validator 6.2.3.Final
+2022-08-12 17:51:46.921 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 17:51:46.940 INFO  Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2022-08-12 17:51:47.478 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 17:51:47.530 INFO  HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-12 17:51:47.686 INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 17:51:47.853 INFO  HikariPool-1 - Starting...
+2022-08-12 17:51:47.858 WARN  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-08-12 17:51:48.199 INFO  HikariPool-1 - Start completed.
+2022-08-12 17:51:48.231 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-12 17:51:48.322 WARN  HHH000457: Joined inheritance hierarchy [com.hr.reserve.domain.Product] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-08-12 17:51:49.662 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 17:51:49.670 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:51:49.959 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 17:51:50.355 INFO  Adding welcome page: class path resource [static/index.html]
+2022-08-12 17:51:50.964 INFO  Started MemberServiceTest in 5.068 seconds (JVM running for 6.179)
+2022-08-12 17:51:51.075 INFO  Began transaction (1) for test context [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@78e4fa1, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@209b4b35]; rollback [true]
+2022-08-12 17:51:51.490 INFO  Rolled back transaction for test: [DefaultTestContext@7966baa7 testClass = MemberServiceTest, testInstance = com.hr.reserve.service.MemberServiceTest@78e4fa1, testMethod = success_join@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60975100 testClass = MemberServiceTest, locations = '{}', classes = '{class com.hr.reserve.ReserveApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1df8da7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@147e2ae7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@503f91c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b6d844d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5038d0b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10db82ae], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-08-12 17:51:51.509 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 17:51:51.511 INFO  HikariPool-1 - Shutdown initiated...
+2022-08-12 17:51:51.519 INFO  HikariPool-1 - Shutdown completed.
