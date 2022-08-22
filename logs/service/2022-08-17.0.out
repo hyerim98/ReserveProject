@@ -1,0 +1,36 @@
+2022-08-17 15:14:52.685 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 7776 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:14:52.687 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:14:52.688 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:14:57.625 INFO  Started OrdersServiceTest in 5.349 seconds (JVM running for 6.662)
+2022-08-17 15:16:11.798 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 13568 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:16:11.809 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:16:11.811 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:16:16.487 INFO  Started OrdersServiceTest in 5.055 seconds (JVM running for 6.159)
+2022-08-17 15:20:49.743 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 17556 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:20:49.744 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:20:49.745 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:20:54.296 INFO  Started OrdersServiceTest in 4.914 seconds (JVM running for 6.031)
+2022-08-17 15:22:16.356 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 14680 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:22:16.357 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:22:16.358 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:22:21.151 INFO  Started OrdersServiceTest in 5.159 seconds (JVM running for 6.266)
+2022-08-17 15:31:28.151 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 17416 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:31:28.152 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:31:28.152 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:31:32.747 INFO  Started OrdersServiceTest in 4.948 seconds (JVM running for 5.97)
+2022-08-17 15:36:45.941 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 14836 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:36:45.942 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:36:45.943 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:36:50.554 INFO  Started OrdersServiceTest in 4.968 seconds (JVM running for 6.135)
+2022-08-17 15:37:12.786 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 4200 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:37:12.787 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:37:12.788 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:37:17.330 INFO  Started OrdersServiceTest in 4.904 seconds (JVM running for 6.007)
+2022-08-17 15:40:59.173 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 20728 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:40:59.174 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:40:59.174 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:41:04.018 INFO  Started OrdersServiceTest in 5.234 seconds (JVM running for 6.399)
+2022-08-17 15:41:19.203 INFO  Starting OrdersServiceTest using Java 16.0.2 on fla0908 with PID 13640 (started by Admin_User in C:\Users\Administrator\Desktop\hyerim\ReserveProject\reserve)
+2022-08-17 15:41:19.204 DEBUG Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-17 15:41:19.205 INFO  No active profile set, falling back to 1 default profile: "default"
+2022-08-17 15:41:24.067 INFO  Started OrdersServiceTest in 5.246 seconds (JVM running for 6.389)

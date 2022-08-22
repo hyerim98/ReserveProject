@@ -31,6 +31,17 @@ public abstract class Product {
 	
 	private int stockQuantity;
 	
+	private int price;
+	
+	// 가격 초기화
+	public int setPrice(CWeight cWeight) {
+		if(this instanceof Cherry) {
+			this.price = cWeight.getPrice();
+		}
+		
+		return this.price;
+	}
+	
 	// 재고 증가
 	public void addStock(int quantity) {
 		this.stockQuantity += quantity;

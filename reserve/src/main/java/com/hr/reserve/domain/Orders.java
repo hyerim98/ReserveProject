@@ -17,11 +17,14 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // new를 통해 객체 생성을 하지않도록 protected 생성자를 생성
 public class Orders {
 	
 	@Id
@@ -43,7 +46,6 @@ public class Orders {
 	
 	private LocalDateTime orderDate;
 	
-	private int price;
 	
 	// 연관관계 메서드
 	public void setMember(Member member) {
@@ -63,7 +65,7 @@ public class Orders {
 		 Orders order = new Orders();
 		 
 		 order.setMember(member);
-		 order.setOrderStatus(OrderStatus.ORDER);;
+		 order.setOrderStatus(OrderStatus.ORDER);
 		 order.setOrderDate(LocalDateTime.now());
 		 
 		 for(OrderProduct p : orderProducts) {

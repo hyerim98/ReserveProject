@@ -9,28 +9,23 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
 @Table(name = "order_product")
 @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // createOrderProduct로만 주문상품 객체를 생성하게 하기 위하여(new로 생성하는 것은 막는다)
 public class OrderProduct {
-	
-	public OrderProduct() {
-		if(getProduct() instanceof Cherry) {
-			this.orderPrice = ((Cherry)getProduct()).getWeight().getPrice();
-		}
-		
-		// 다른 Product 가격 초기화
-	}
 
 	@Id
 	@GeneratedValue
 	@Column(name = "orderProduct_id")
 	private Long id;
 	
-	private int orderPrice; // product의 Dtype(20000)으로 계산
+	private int orderPrice;
 	
 	private int orderQuantity; // 주문 수량
 	
@@ -43,7 +38,7 @@ public class OrderProduct {
 	private Product product;
 	
 	// == 생성 메서드 == //
-	public OrderProduct createOrderProduct(Product product, int count) {
+	public static OrderProduct createOrderProduct(Product product, int count) {
 		OrderProduct orderProduct = new OrderProduct();
 		
 		orderProduct.setProduct(product);
@@ -61,6 +56,8 @@ public class OrderProduct {
 	}
 	
 	public int getTotalPrice() {
+		this.orderPrice = product.getPrice();
+				
 		return getOrderQuantity() * getOrderPrice();
 	}
 }

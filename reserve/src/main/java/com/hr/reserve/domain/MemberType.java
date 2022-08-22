@@ -1,5 +1,8 @@
 package com.hr.reserve.domain;
 
+import lombok.Getter;
+
+@Getter
 public enum MemberType {
 	ADULT(15000), CHILD(12000), PRESCHOOLER(0);
 	
